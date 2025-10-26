@@ -10,7 +10,7 @@ export const siteConfig = {
   },
  aboutMe:
   "Olá! Sou João, um desenvolvedor web apaixonado por criar projetos modernos e funcionais. Tenho experiência com desenvolvimento front-end e back-end, sempre buscando aprender novas tecnologias e melhorar minhas habilidades. Gosto de desenvolver aplicações web responsivas e sistemas integrados.",
-skills: ["HTML", "CSS", "JavaScript"],
+skills: ["HTML", "CSS", "Javascript", "PHP", "Tailwind", "Git", "Github"],
 
 
   projects: [
@@ -19,7 +19,7 @@ skills: ["HTML", "CSS", "JavaScript"],
       description:
         "Loja virtual totalmente interativa, desenvolvida com HTML, CSS e JavaScript.",
       link: "https://github.com/JoaoBoscarino/Nexify-Store",
-      skills: ["HTML", "CSS", "JavaScript"]
+      skills: ["HTML", "CSS", "Javascript"]
     }
 
   ],
@@ -29,7 +29,7 @@ skills: ["HTML", "CSS", "JavaScript"],
       title: "Desenvolvedor Web",
       dateRange: "2025 - Presente",
       bullets: [
-        "Criação de sistemas web completos usando HTML, CSS e JavaScript",
+        "Criação de sistemas web completos usando HTML, CSS e Javascript",
         "Implementação de layouts responsivos e modernos"
       ]
     }
@@ -47,4 +47,14 @@ skills: ["HTML", "CSS", "JavaScript"],
     }
 
   ]
+};
+
+export const skillIconsMap: Record<string, string> = {
+  "HTML": "html",
+  "CSS": "css",
+  "Tailwind": "tailwind",
+  "Javascript": "js",
+  "PHP": "php",
+  "Git": "git",
+  "Github": "github",
 };
