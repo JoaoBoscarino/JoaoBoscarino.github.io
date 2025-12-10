@@ -17,7 +17,7 @@ skills: ["HTML", "CSS", "Javascript", "PHP", "Tailwind", "Git", "Github"],
     {
       name: "Nexify Store",
       description:
-        "Loja virtual totalmente interativa, desenvolvida com HTML, CSS e JavaScript. (Em desenvolvimento)",
+        "Loja virtual totalmente interativa, desenvolvida com HTML, CSS e JavaScript.",
       link: "https://github.com/JoaoBoscarino/Nexify-Store",
       skills: ["HTML", "CSS", "Javascript"]
     }
